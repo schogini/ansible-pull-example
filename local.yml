@@ -3,4 +3,6 @@
 
   tasks:
   - name: install vim
-    pkg: pkg=vim state=installed
+    package: 
+     - name: vim 
+     - state: installed
