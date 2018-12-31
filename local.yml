@@ -3,6 +3,4 @@
 
   tasks:
   - name: install vim
-    package: 
-     - name: vim 
-     - state: installed
+    apt: name=vim state=present
