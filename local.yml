@@ -3,4 +3,5 @@
 
   tasks:
   - name: install vim
-    dnf: pkg=vim state=installed
+    #dnf: pkg=vim state=installed
+    pkg: pkg=vim state=installed
